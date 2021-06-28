@@ -14,8 +14,17 @@ body {
 
 /* inizio main  */
 .contenitore-main {
+    position: relative;
     width: 100%;
     height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenitore-btn-top-dx {
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 /* fine main  */
 
@@ -33,8 +42,24 @@ body {
 .debug .contenitore-main {
     background-color: black;
 }
+.debug .contenitore-freccia-sx,
+.debug .contenitore-freccia-dx {
+    width: 5%;
+    height: 20%;
+    background-color: darkgreen;
+}
+.debug .contenitore-utenti {
+    width: 90%;
+    height: 90%;
+    background-color: darkgrey;
+}
 .debug .contenitore-footer {
     background-color: red;
+}
+.debug .contenitore-btn-top-dx {
+    width: 15%;
+    height: 5%;
+    background-color: darkseagreen;
 }
 .debug .nav-sx,
 .debug .nav-dx {
@@ -46,6 +71,11 @@ body {
     width: 60%;
     height: 100%;
     background-color: cornflowerblue;
+}
+.debug .box-utente {
+    width: calc(100% / 5);
+    height: calc(100% / 5);
+    border: 2px solid red;
 }
 
 
