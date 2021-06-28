@@ -19,6 +19,7 @@ body {
     height: 90vh;
     justify-content: space-around;
     align-items: center;
+    background-color: black;
 }
 .contenitore-freccia-sx, 
 .contenitore-freccia-dx {
@@ -37,14 +38,43 @@ body {
 
 }
 /* contenitore utenti  */
+.contenitore-utenti {
+    width: 90%;
+    height: 90%;
+    flex-wrap: wrap;
+}
 .box-utente img {
     width: auto;
     height: 100%;
 }
 .box-utente {
+    position: relative;
+
     text-align: center;
     background-color: white;
+    width: calc(100% / 5);
+    height: calc(100% / 5);
+    border: 3px solid black;
 }
+.nome-utente {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+   
+}
+.nome-utente i {
+    display: inline-block;
+    padding: 0 5px;
+}
+.nome-utente p {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+}
+
 /* fine contenitore utenti */
 
 .contenitore-btn-top-dx {
@@ -110,20 +140,20 @@ body {
 /* fine footer  */
 
 /* debug */
-.debug .contenitore-main {
+/* .debug .contenitore-main {
     background-color: black;
-}
+} */
 /* .debug .contenitore-freccia-sx,
 .debug .contenitore-freccia-dx {
     width: 5%;
     height: 20%;
     background-color: darkgreen;
 } */
-.debug .contenitore-utenti {
+/* .debug .contenitore-utenti {
     width: 90%;
     height: 90%;
     background-color: darkgrey;
-}
+} */
 /* .debug .contenitore-footer {
     background-color: red;
 } */
@@ -143,11 +173,11 @@ body {
     height: 100%;
     background-color: cornflowerblue;
 } */
-.debug .box-utente {
+/* .debug .box-utente {
     width: calc(100% / 5);
     height: calc(100% / 5);
     border: 2px solid red;
-}
+} */
 
 
 /* fine debug  */
