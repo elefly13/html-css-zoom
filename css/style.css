@@ -13,10 +13,9 @@ body {
 #attivo {
     border: 5px solid yellow;
 }
-.nome-utente i .acceso {
+.nome-utente .acceso {
     display: none;
 }
-
 /* fine common */
 
 /* inizio main  */
@@ -33,16 +32,15 @@ body {
     width: 5%;
     text-align: center;
     color: white;
+    font-size: 15px;
 }
 .contenitore-freccia-dx i {
     font-size: 50px;
     color: rgb(0, 85, 255);
-
 }
 .contenitore-freccia-sx i {
     font-size: 50px;
     color: rgb(127, 127, 127);
-
 }
 /* contenitore utenti  */
 .contenitore-utenti {
@@ -56,7 +54,6 @@ body {
 }
 .box-utente {
     position: relative;
-
     text-align: center;
     background-color: white;
     width: calc(100% / 5);
@@ -70,7 +67,6 @@ body {
     height: 20px;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-   
 }
 .nome-utente i {
     display: inline-block;
@@ -81,7 +77,6 @@ body {
     font-size: 12px;
     padding: 5px;
 }
-
 /* fine contenitore utenti */
 
 /* Bottoni in alto a destra */
@@ -131,18 +126,17 @@ body {
 }
 .nav-sx,
 .nav-dx {
-    width: 15%;
+    width: 20%;
     height: 100%;
-    
 }
 .nav-centrale {
     width: 60%;
     height: 100%;
- 
 }
 .nav-sx {
     justify-content: flex-start;
     align-items: center;
+    padding-left: 10px;
 }
 .nav-centrale{
     justify-content: space-between;
@@ -163,8 +157,11 @@ body {
 #green {
     color: springgreen;
 }
+.contenitore-footer .giu {
+    font-size: 20px;
+}
 .bottone-foot {
-    width: 80%;
+    width: 60%;
     height: 100%;
     text-align: center;
     color: red;
@@ -172,8 +169,6 @@ body {
     line-height: 10vh;
     float: right;
 }
-
-
 /* fine footer  */
 
 /* debug */
@@ -215,6 +210,4 @@ body {
     height: calc(100% / 5);
     border: 2px solid red;
 }
-
-
 /* fine debug  */
