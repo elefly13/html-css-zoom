@@ -20,11 +20,37 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+.contenitore-freccia-sx, 
+.contenitore-freccia-dx {
+    width: 5%;
+    text-align: center;
+    color: white;
+}
+.contenitore-freccia-dx i {
+    font-size: 50px;
+    color: rgb(0, 85, 255);
+
+}
+.contenitore-freccia-sx i {
+    font-size: 50px;
+    color: rgb(127, 127, 127);
+
+}
+/* contenitore utenti  */
+.box-utente img {
+    width: auto;
+    height: 100%;
+}
+.box-utente {
+    text-align: center;
+    background-color: white;
+}
+/* fine contenitore utenti */
+
 .contenitore-btn-top-dx {
     position: absolute;
     top: 0;
     right: 0;
-
 }
 /* fine main  */
 
@@ -87,12 +113,12 @@ body {
 .debug .contenitore-main {
     background-color: black;
 }
-.debug .contenitore-freccia-sx,
+/* .debug .contenitore-freccia-sx,
 .debug .contenitore-freccia-dx {
     width: 5%;
     height: 20%;
     background-color: darkgreen;
-}
+} */
 .debug .contenitore-utenti {
     width: 90%;
     height: 90%;
