@@ -10,6 +10,13 @@ body {
 .flex {
     display: flex;
 }
+#attivo {
+    border: 5px solid yellow;
+}
+.nome-utente i .acceso {
+    display: none;
+}
+
 /* fine common */
 
 /* inizio main  */
@@ -82,6 +89,13 @@ body {
     top: 0;
     right: 0;
 }
+/* Bottoni in alto a destra */
+.contenitore-btn-top-dx {
+    width: 15%;
+    height: 5%;
+
+}
+/* fine bottoni in alto a destra */
 /* fine main  */
 
 /* inizio footer */
@@ -91,6 +105,7 @@ body {
     justify-content: space-between;
     color: white;
     background-color: rgb(33, 35, 36);
+    font-size: 15px;
 }
 .nav-sx,
 .nav-dx {
@@ -140,29 +155,29 @@ body {
 /* fine footer  */
 
 /* debug */
-/* .debug .contenitore-main {
+.debug .contenitore-main {
     background-color: black;
-} */
-/* .debug .contenitore-freccia-sx,
+} 
+.debug .contenitore-freccia-sx,
 .debug .contenitore-freccia-dx {
     width: 5%;
     height: 20%;
     background-color: darkgreen;
-} */
-/* .debug .contenitore-utenti {
+}
+.debug .contenitore-utenti {
     width: 90%;
     height: 90%;
     background-color: darkgrey;
-} */
-/* .debug .contenitore-footer {
+}
+.debug .contenitore-footer {
     background-color: red;
-} */
+}
 .debug .contenitore-btn-top-dx {
     width: 15%;
     height: 5%;
     background-color: darkseagreen;
 }
-/* .debug .nav-sx,
+.debug .nav-sx,
 .debug .nav-dx {
     width: 15%;
     height: 100%;
@@ -172,12 +187,12 @@ body {
     width: 60%;
     height: 100%;
     background-color: cornflowerblue;
-} */
-/* .debug .box-utente {
+}
+.debug .box-utente {
     width: calc(100% / 5);
     height: calc(100% / 5);
     border: 2px solid red;
-} */
+}
 
 
 /* fine debug  */
