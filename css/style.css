@@ -10,10 +10,26 @@ body {
 /* fine common */
 
 /* inizio main  */
+.contenitore-main {
+    width: 100%;
+    height: 90vh;
+}
 /* fine main  */
 
 /* inizio footer */
+.contenitore-footer {
+    width: 100%;
+    height: 10vh;
+}
 /* fine footer  */
 
 /* debug */
+.debug .contenitore-main {
+    background-color: black;
+}
+.debug .contenitore-footer {
+    background-color: red;
+}
+
+
 /* fine debug  */
