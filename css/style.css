@@ -46,8 +46,8 @@ body {
 }
 /* contenitore utenti  */
 .contenitore-utenti {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     flex-wrap: wrap;
 }
 .box-utente img {
@@ -84,16 +84,38 @@ body {
 
 /* fine contenitore utenti */
 
-.contenitore-btn-top-dx {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
 /* Bottoni in alto a destra */
 .contenitore-btn-top-dx {
-    width: 15%;
-    height: 5%;
-
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.contenitore-btn-top-dx {
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.btn-speaker {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: linear-gradient(gray, black);
+    font-size: 15px;
+}
+.btn-speaker i {
+    padding-right: 10px;
+}
+.btn-4frecce {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(gray, black);
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
 }
 /* fine bottoni in alto a destra */
 /* fine main  */
