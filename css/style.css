@@ -33,8 +33,53 @@ body {
     width: 100%;
     height: 10vh;
     justify-content: space-between;
-
+    color: white;
+    background-color: rgb(33, 35, 36);
 }
+.nav-sx,
+.nav-dx {
+    width: 15%;
+    height: 100%;
+    
+}
+.nav-centrale {
+    width: 60%;
+    height: 100%;
+ 
+}
+.nav-sx {
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-centrale{
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    text-align: center;
+    padding: 5px;
+}
+.contenitore-footer i {
+    font-size: 25px;
+}
+#partecipanti {
+    font-size: 12px;
+    vertical-align: top;
+    padding: 5px;
+}
+#green {
+    color: springgreen;
+}
+.bottone-foot {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: red;
+    background-color: gray;
+    line-height: 10vh;
+    float: right;
+}
+
 
 /* fine footer  */
 
@@ -53,15 +98,15 @@ body {
     height: 90%;
     background-color: darkgrey;
 }
-.debug .contenitore-footer {
+/* .debug .contenitore-footer {
     background-color: red;
-}
+} */
 .debug .contenitore-btn-top-dx {
     width: 15%;
     height: 5%;
     background-color: darkseagreen;
 }
-.debug .nav-sx,
+/* .debug .nav-sx,
 .debug .nav-dx {
     width: 15%;
     height: 100%;
@@ -71,7 +116,7 @@ body {
     width: 60%;
     height: 100%;
     background-color: cornflowerblue;
-}
+} */
 .debug .box-utente {
     width: calc(100% / 5);
     height: calc(100% / 5);
